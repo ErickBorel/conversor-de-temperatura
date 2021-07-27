@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/conversor.css">
+    <link rel="stylesheet" href="css/valor-celsius.css">
+    <link rel="stylesheet" href="css/valor-faren.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/select.css">
+
+</head>
+<body class="body">
+
+    <h1 class="title">Conversor de Temperatura</h1>
+
+    <div class="conversor">
+        <label class="title-vd" for="input">Valor em C°:</label>
+        <input id="valor-celsius" class="valor-celsius" type="text">
+
+        <label class="title-vr" for="p">Valor em F°:</label>
+        <p id="resultado-faren" class="valor-faren"></p>
+        
+    </div>
+
+    <div>
+        <button onclick="convertertemp()" id="button" class="button">Converter</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

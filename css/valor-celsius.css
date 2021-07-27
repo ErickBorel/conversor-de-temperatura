@@ -1,0 +1,13 @@
+.valor-celsius {
+    font-size: 22px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #000;
+    height: 30px;
+    width: 211px;
+}
+
+.title-vd {
+    font-size: 25px;
+    padding-right: 10px;
+}
